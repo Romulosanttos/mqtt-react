@@ -17,7 +17,7 @@ function defaultDispatch(topic, message, packet) {
     const m = parse(message);
     const newData = [
         m,
-        ...state.data
+        // ...state.data
     ];
     this.setState({ data: newData });
 };

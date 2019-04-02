@@ -1,24 +1,24 @@
 {
-  "name": "mqtt-react",
-  "version": "0.0.2",
+  "name": "@andrey.kislov/mqtt-react",
+  "version": "0.0.4",
   "description": "Connecting MQQT to React Components",
   "main": "./lib/index.js",
   "scripts": {
-    "build:lib": "NODE_ENV=development babel src --out-dir lib",
-    "build:umd": "cross-env NODE_ENV=development webpack --config=webpack.config.js src/index.js dist/mqtt-react.js",
-    "build:umd:min": "cross-env NODE_ENV=production webpack --config=webpack.config.js src/index.js dist/mqtt-react.min.js",
+    "build:lib": "set NODE_ENV=development&& babel src --out-dir lib",
+    "build:umd": "set NODE_ENV=development&& webpack --config=webpack.config.js src/index.js dist/mqtt-react.js",
+    "build:umd:min": "set NODE_ENV=production&& webpack --config=webpack.config.js src/index.js dist/mqtt-react.min.js",
     "build": "npm run build:lib && npm run build:umd",
     "test": "cross-env NODE_ENV=test ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KeKs0r/mqtt-react.git"
+    "url": "git+https://github.com/ANDeaD-K/mqtt-react"
   },
   "keywords": [
     "react",
     "mqtt"
   ],
-  "author": "Marc Höffl <marc.hoeffl@gmail.com>",
+  "author": "Andrey Kislov",
   "license": "MIT",
   "ava": {
     "files": [
@@ -56,6 +56,7 @@
     "prop-types": "^15.5.8",
     "react-test-renderer": "^15.5.4",
     "sinon": "^2.2.0",
-    "webpack": "^2.4.1"
+    "webpack": "^2.4.1",
+    "object.omit": "^3.0.0"
   }
 }
