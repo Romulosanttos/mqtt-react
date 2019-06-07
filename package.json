@@ -1,6 +1,6 @@
 {
   "name": "react-mqtt",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Connecting MQQT to React Components",
   "main": "./lib/index.js",
   "scripts": {
@@ -37,7 +37,8 @@
     "babel": "inherit"
   },
   "dependencies": {
-    "mqtt": "^2.7.0"
+    "mqtt": "^2.7.0",
+    "object.omit": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^15.5.0",
