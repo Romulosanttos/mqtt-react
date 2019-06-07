@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romulosanttos/mqtt-react"
+    "url": "https://github.com/Romulosanttos/mqtt-react"
   },
   "keywords": [
     "react",
