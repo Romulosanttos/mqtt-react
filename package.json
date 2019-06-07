@@ -1,5 +1,5 @@
 {
-  "name": "romulosanttos/mqtt-react",
+  "name": "@Romulosanttos/mqtt-react",
   "version": "0.0.5",
   "description": "Connecting MQQT to React Components",
   "main": "./lib/index.js",
