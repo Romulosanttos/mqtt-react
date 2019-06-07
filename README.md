@@ -1,6 +1,9 @@
-[![Build Status](https://travis-ci.org/KeKs0r/mqtt-react.svg?branch=master)](https://travis-ci.org/KeKs0r/mqtt-react)
-
 # mqtt-react
+
+<!-- [START badges] -->
+[![NPM react-mqtt package](https://img.shields.io/npm/v/react-mqtt.svg)](https://npmjs.org/package/react-mqtt)
+<!-- [END badges] -->
+
 React Container for [mqttjs/MQTT.js](https://github.com/mqttjs/MQTT.js)
 
 <!--
@@ -11,7 +14,7 @@ npm i -S mqtt-react
 -->
 
 ## Demo
-There is a very minimalistic Demo-App: [mqtt-react-demo](https://github.com/KeKs0r/mqtt-react-demo)
+There is a very minimalistic Demo-App: [react-mqtt-client](https://github.com/Romulosanttos/react-mqtt-client)
 
 ### Usage
 Currently, mqtt-react exports two enhancers.
@@ -112,10 +115,10 @@ Sponsored by <a href="http://nearform.com">nearForm</a>
 
 Pull Requests are very welcome!
 
-If you find any issues, please report them via [Github Issues](https://github.com/KeKs0r/mqtt-react/issues)!
+If you find any issues, please report them via [Github Issues](https://github.com/Romulosanttos/react-mqtt/issues)!
 
 ### Contributors
-- Marc Höffl [@KeKs0r](https://github.com/KeKs0r)
+- Rômulo Cabral Santos [@romulosanttos](https://github.com/Romulosanttos)
 
 ### License
-(MIT)
+(Copyright©2019-2100, Rômulo Cabral Santos. Todos os direitos reservados) 
