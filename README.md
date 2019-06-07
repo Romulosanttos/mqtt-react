@@ -1,6 +1,8 @@
 # mqtt-react
 
 <!-- [START badges] -->
+[![Build Status](https://travis-ci.com/Romulosanttos/react-mqtt.svg?branch=master)](https://travis-ci.com/Romulosanttos/react-mqtt)
+
 [![NPM react-mqtt package](https://img.shields.io/npm/v/react-mqtt.svg)](https://npmjs.org/package/react-mqtt)
 <!-- [END badges] -->
 
