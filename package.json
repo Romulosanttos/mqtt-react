@@ -1,6 +1,6 @@
 {
-  "name": "@andrey.kislov/mqtt-react",
-  "version": "0.0.4",
+  "name": "@Romulosanttos/mqtt-react",
+  "version": "0.0.5",
   "description": "Connecting MQQT to React Components",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,13 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANDeaD-K/mqtt-react"
+    "url": "git+https://github.com/Romulosanttos/mqtt-react"
   },
   "keywords": [
     "react",
     "mqtt"
   ],
-  "author": "Andrey Kislov",
+  "author": {
+    "name": "Rômulo Cabral Santos",
+    "url": "http://romulosanttos.github.io",
+    "email": "romulosanttos1@gmail.com"
+  },
   "license": "MIT",
   "ava": {
     "files": [
